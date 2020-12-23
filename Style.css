@@ -192,7 +192,7 @@ transform: translateY(-1rem);
   left: 0;
   width: 100%;
   height: calc(100% + 10vh);
-  background: radial-gradient( rgb(41, 128, 185), rgb(109, 213, 250), rgb(218, 120, 120));
+  background: radial-gradient( rgb(40, 120, 240), rgb(100, 200, 255), rgb(130, 120, 255));
   transform: skewY(-5deg);
   box-shadow: 0 0 50px rgba(60,117,162,.4);
   opacity: 90%;
