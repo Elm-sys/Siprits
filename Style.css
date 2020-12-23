@@ -1,0 +1,339 @@
+body {
+  background: #12FAFF;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+}
+body #header {
+    height: 940px;
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+}
+.back1ground {
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 10vh);
+    background: linear-gradient(135deg, rgb(168, 255, 120), rgb(120, 255, 214));
+    transform: skewY(-5deg);
+    box-shadow: 0 0 50px rgba(60,117,162,.4);
+}
+
+#background-title {
+    position: absolute;
+    top:10%;
+    left: 15%;
+    font-size: 700%;
+}
+#background-content {
+    position: absolute;
+    width: 50%;
+    top:50%;
+    left: 15%;
+    font-size: 300%;
+    transform: skewY(-5deg);
+
+}
+#Box {
+  transform: skewY(-7deg);
+  box-shadow: 0 0 50px rgba(60,117,162,.4);
+  padding: 10px 0px 10px;
+  position: absolute;
+  left: 72.5%;
+  top: 45%;
+  height: 28%;
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-left: 6px solid slateblue;
+  border-right: 2px solid springgreen;
+  border-radius: 4%;
+  background-color: rgba(0, 138, 252, 0.377);
+}
+.Card {
+  font-size: 25.5px;
+  padding: 0px 0px 30px 20px;
+  margin:  10px 0px 20px 20px;
+  width: 75%;
+  height: 18%;
+  background-color: #12334F;
+  color: #24F8B0;
+  border-radius: 20vw;
+  font-family: "Courier New", monospace;
+  transition: 0.2s;
+}
+.Card :first-child {
+    padding-top: -0.5%;
+}
+.Card:hover{
+  transform: translateY(-0.7%);
+  color: aqua;
+  background-color: azure;
+}
+
+.Card:hover~.Card {
+  transform: translateY(7%);
+}
+
+.Card:not(:last-child) {
+  margin-bottom: -3%;
+}
+
+#Box::-webkit-scrollbar{
+  height: 10px;
+  width: 10px;
+}
+#Box::-webkit-scrollbar-thumb{
+  background: #16bef1;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px  #16feff;
+}
+#Box .Card:hover {
+  transform: translateY(-1rem);
+}
+
+.back2ground {
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 10vh);
+    background: linear-gradient(135deg, rgba(255, 45, 00, 0.774), rgb(255, 255, 00));
+    transform: skewY(-5deg);
+    box-shadow: 0 0 50px rgba(60,117,162,.4);
+    opacity: 90%;
+}
+#back2ground-title {
+    position: absolute;
+    top:0%;
+    left: 5%;
+    font-size: 1000%;
+    font-family: monospace;
+}
+.back2ground-content {
+  position: relative;
+  top: 70%;
+  font-size: 70%;
+  font-family: cursive;
+}
+.Planet {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 50%;
+    opacity: 10%;
+}
+#TheoryBox {
+  transform: skewY(-7deg);
+  box-shadow: 0 0 50px rgba(60,117,162,.4);
+  padding: 10px 0px 10px;
+  position: absolute;
+  left: 61%;
+  top: 30%;
+  height: 37%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-left: 6px solid orange;
+  border-right: 2px solid springgreen;
+  border-radius: 4%;
+  background: linear-gradient(to right,  #a8ffee, #f15eF0);
+}
+.Theory-Card {
+  font-size: 25.5px;
+  padding: 0px 0px 5% 2%;
+  margin:  10% 0px 6% 10%;
+  width: 75%;
+  height: 18%;
+  color: #12334F;
+  background: linear-gradient(to right,  #FFAE62,#FF8473, #FFC25E);
+  border-radius: 20vw;
+  font-family: "Courier New", monospace;
+  transition: 0.2s;
+}
+.Theory-Card :first-child {
+  padding-top: -0.5%;
+}
+.Theory-Card:hover{
+transform: translateY(-0.7%);
+color: aqua;
+background: rgb(56, 141, 141);
+}
+
+.Theory-Card:hover~.Theory-Card {
+transform: translateY(7%);
+}
+
+.Theory-Card:not(:last-child) {
+margin-bottom: -3%;
+}
+
+#TheoryBox::-webkit-scrollbar{
+height: 10px;
+width: 10px;
+}
+#TheoryBox::-webkit-scrollbar-thumb{
+background: #16bef1;
+border-radius: 10px;
+box-shadow: inset 5px 5px 5px  #16feff;
+}
+#TheoryBox .Theory-Card:hover {
+transform: translateY(-1rem);
+}
+
+.back3ground {
+  position: absolute;
+  top: -10vh;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 10vh);
+  background: radial-gradient( rgb(41, 128, 185), rgb(109, 213, 250), rgb(218, 120, 120));
+  transform: skewY(-5deg);
+  box-shadow: 0 0 50px rgba(60,117,162,.4);
+  opacity: 90%;
+}
+.card-content{
+  font-size: 200%;
+
+}
+.card-list {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow-x: scroll;
+  width: 100%;
+  height:70%;
+  top: 9%;
+  transform: skewY(-5.5deg);
+}
+.card-content h1:hover {
+  background: linear-gradient(90deg,#4521ff,#f33fef) ;
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 100%;
+  
+}
+.card {
+  position: relative;
+  margin-top: 5%;
+  height: 5%;
+  width: 30%;
+  min-width: 20%;
+  min-height: 80%;
+  padding: 1.5rem;  
+  border-radius: 16px;
+  background:#DADD ;
+  box-shadow: -1rem 0 0.1rem #ff02dd;
+  transition: 0.25s;
+  opacity: 90%;
+}
+
+.card:hover{
+  transform: translateY(-1rem) scale(20%);
+}
+
+.card:hover~.card {
+  transform: translateX(130px);
+}
+
+.card:not(:first-child) {
+  margin-bottom: -30%;
+}
+.card-list::-webkit-scrollbar{
+  height: 10px;
+  width: 10px;
+}
+.card-list::-webkit-scrollbar-thumb{
+  background: #16bef1;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px  #16feff;
+}
+.card-list .Card:hover {
+  transform: translateY(-1rem);
+}
+
+/* Footer */
+#footer {
+
+  padding: 6em 0 4em 0 ;
+  background-color: #1d242a;
+  text-align: center;
+}
+
+  #footer .icons {
+    font-size: 1.25em;
+  }
+
+    #footer .icons a {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+      #footer .icons a:hover {
+        color: #fff;
+      }
+
+  #footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+    #footer .copyright li {
+      border-left: solid 1px rgba(255, 255, 255, 0.5);
+      display: inline-block;
+      line-height: 1em;
+      margin-left: 1em;
+      padding-left: 1em;
+    }
+
+      #footer .copyright li:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      #footer .copyright li a {
+        color: inherit;
+      }
+
+        #footer .copyright li a:hover {
+          color: #fff;
+        }
+
+      @media screen and (max-width: 480px) {
+
+        #footer .copyright li {
+          border: 0;
+          display: block;
+          line-height: 1.65em;
+          margin: 0;
+          padding: 0.5em 0;
+        }
+
+      }
+
+  @media screen and (max-width: 980px) {
+
+    #footer {
+      padding: 4em 3em 2em 3em ;
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    #footer {
+      padding: 3em 2em 1em 2em ;
+    }
+
+  }

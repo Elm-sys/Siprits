@@ -1,0 +1,2 @@
+# Sipirt
+ FIletype Omega
