@@ -5,14 +5,24 @@ body {
 .section-header {
   display: flex;
   flex-direction: column;
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 body #header {
     height: 940px;
     position: relative;
     color: #fff;
     font-size: 17px;
-   user-select:none;
+    -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .back1ground {
     position: absolute;
@@ -31,6 +41,12 @@ body #header {
     left: 15%;
     font-size: 700%;
     user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 #background-content {
     position: absolute;
@@ -40,6 +56,12 @@ body #header {
     font-size: 300%;
     transform: skewY(-5deg);
     user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 #Box {
   transform: skewY(-7deg);
@@ -57,7 +79,12 @@ body #header {
   border-right: 2px solid springgreen;
   border-radius: 4%;
   background-color: rgba(0, 138, 252, 0.377);
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .Card {
   font-size: 25.5px;
@@ -70,7 +97,13 @@ body #header {
   border-radius: 20vw;
   font-family: "Courier New", monospace;
   transition: 0.2s;
-  user-select:none;
+  
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .Card :first-child {
     padding-top: -0.5%;
@@ -119,14 +152,24 @@ body #header {
     left: 5%;
     font-size: 1000%;
     font-family: monospace;
-    user-select:none;
+    -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .back2ground-content {
   position: relative;
   top: 70%;
   font-size: 70%;
   font-family: cursive;
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
   
 }
 .Planet {
@@ -135,7 +178,12 @@ body #header {
     position: relative;
     border-radius: 50%;
     opacity: 10%;
-    user-select:none;
+    -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 #TheoryBox {
   transform: skewY(-7deg);
@@ -153,7 +201,12 @@ body #header {
   border-right: 2px solid springgreen;
   border-radius: 4%;
   background: linear-gradient(to right,  #a8ffee, #f15eF0);
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .Theory-Card {
   font-size: 25.5px;
@@ -166,7 +219,12 @@ body #header {
   border-radius: 20vw;
   font-family: "Courier New", monospace;
   transition: 0.2s;
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .Theory-Card :first-child {
   padding-top: -0.5%;
@@ -211,7 +269,12 @@ transform: translateY(-1rem);
 }
 .card-content{
   font-size: 200%;
-
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .card-list {
   display: flex;
@@ -223,7 +286,12 @@ transform: translateY(-1rem);
   height:70%;
   top: 9%;
   transform: skewY(-5.5deg);
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 .card-content h1:hover {
   background: linear-gradient(90deg,#4521ff,#f33fef) ;
@@ -247,7 +315,12 @@ transform: translateY(-1rem);
   box-shadow: -1rem 0 0.1rem #ff02dd;
   transition: 0.25s;
   opacity: 97%;
-  user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
 }
 
 .card:hover{
