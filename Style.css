@@ -12,8 +12,6 @@ body {
   -moz-user-select:none;      /* Firefox */
   -ms-user-select:none;       /* Internet Explorer/Edge */
   user-select:none;
-  overflow-x: hidden; 
-  overflow-y: hidden;
 }
 body #header {
     height: 940px;
@@ -146,7 +144,7 @@ body #header {
     width: 100%;
     height: calc(100% + 40vh);
     background: linear-gradient(135deg, rgba(55, 255, 55, 0.8), rgb(100, 200, 70));
-    transform: skewY(5deg);
+    transform: skewY(-5deg);
     box-shadow: 0 0 50px rgba(60,117,162,.4);
     opacity: 90%;
 }
